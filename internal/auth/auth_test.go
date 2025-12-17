@@ -19,8 +19,7 @@ func TestGetAPIKey(t *testing.T) {
 		},
 		{
 			key:       "Authorization",
-			expectErr: "no adasda header",
-			//expectErr: "no authorization header",
+			expectErr: "no authorization header",
 		},
 		{
 			key:       "Authorization",
